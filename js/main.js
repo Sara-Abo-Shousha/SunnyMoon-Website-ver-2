@@ -1,5 +1,5 @@
 // Fetch the JSON data
-fetch("https://feeds.behold.so/hnaWt62QKKXKutFCQUjJ")
+fetch("https://feeds.behold.so/n7jrRUXWU8AecDQSvV77")
   .then((response) => response.json())
   .then((data) => {
     const photoWrapper = document.getElementById("photoWrapper");
@@ -41,7 +41,7 @@ fetch("https://feeds.behold.so/hnaWt62QKKXKutFCQUjJ")
   });
 
 // Fetch the JSON data
-fetch("https://feeds.behold.so/hnaWt62QKKXKutFCQUjJ")
+fetch("https://feeds.behold.so/n7jrRUXWU8AecDQSvV77")
   .then((response) => response.json())
   .then((data) => {
     const photoWrapper = document.getElementById("photoWrapper1");
@@ -114,12 +114,3 @@ function closePop() {
   popup1.classList.remove("pop-up1");
   bg1.classList.remove("openbg");
 }
-var form = document.getElementById("formId");
-function submitForm(event) {
-  //Preventing page refresh
-
-  event.preventDefault();
-  form.style.display = "none";
-  opTag.innerHTML = "<b>Form submit successful</b>";
-}
-form.addEventListener("submit", submitForm);
