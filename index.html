@@ -223,16 +223,22 @@
               <label for="message">DROP US A QUICK MESSAGE</label>
             </p>
             <div class="col-12 text-center">
-              <textarea id="message name " name="message"></textarea>
+              <textarea
+                id="message name "
+                name="message"
+                type="text"
+              ></textarea>
             </div>
 
             <div class="col-12 text-center">
-              <input
+              <button
                 type="submit"
                 value="SEND"
                 class="submit"
                 onclick="openPop()"
-              />
+              >
+                SEND
+              </button>
             </div>
           </form>
           <div class="row mt-5 footer pt-3 ps-4">
@@ -461,15 +467,24 @@
               class="col-3 position-relative text-center pe-0"
               style="margin-top: -8vw; margin-left: 5vw"
             >
-              <h4 class="ms-5 mb-4 hsend">DROP US A QUICK MESSAGE</h4>
-              <textarea
-                name=""
-                id=""
-                cols="30"
-                rows="50"
-                style="width: 28vw; height: 13vw"
-              ></textarea>
-              <button class="btndktp1 ms-5" onclick="openPop()">SEND</button>
+              <form
+                name="contactmobile"
+                method="POST"
+                data-netlify="true"
+                onSubmit="submit"
+              >
+                <h4 class="ms-5 mb-4 hsend">DROP US A QUICK MESSAGE</h4>
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="50"
+                  style="width: 28vw; height: 13vw"
+                ></textarea>
+                <button class="btndktp1 ms-5" onclick="openPop()" type="submit">
+                  SEND
+                </button>
+              </form>
             </div>
           </div>
 
