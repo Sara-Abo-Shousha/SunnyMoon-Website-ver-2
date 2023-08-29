@@ -114,3 +114,12 @@ function closePop() {
   popup1.classList.remove("pop-up1");
   bg1.classList.remove("openbg");
 }
+var form = document.getElementById("formId");
+function submitForm(event) {
+  //Preventing page refresh
+
+  event.preventDefault();
+  form.style.display = "none";
+  opTag.innerHTML = "<b>Form submit successful</b>";
+}
+form.addEventListener("submit", submitForm);

@@ -19,6 +19,7 @@
 :root {
   --swiper-navigation-color: rgb(0, 0, 0) !important;
   --swiper-theme-color: white !important;
+  --swiper-navigation-size: 20vw;
 }
 
 * {
@@ -121,6 +122,7 @@ html {
 .swiper-button-next {
   margin: 5vw;
   margin-top: 2vw;
+  scale: 0.5;
 }
 
 .intro {
@@ -359,6 +361,9 @@ textarea {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .desktop {
+    display: none;
+  }
   body {
     background-color: #00d8db;
     margin: 0;
@@ -611,7 +616,8 @@ textarea {
     position: relative;
     background-color: #ac9fff;
     z-index: 5;
-    height: 90vh;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   #ourworkdktp {
     background-color: #ffffff;
@@ -633,7 +639,7 @@ textarea {
   .dktpowners {
     z-index: 1;
     width: 44%;
-    top: 11vw;
+    top: 13vw;
     right: 6vw;
   }
   .logodktp {
@@ -719,7 +725,7 @@ textarea {
     display: flex;
     width: 30vw;
     height: 30vw;
-    margin-top: 30vw;
+    margin-top: 40vw;
     flex-shrink: 0;
     z-index: 6;
     margin-left: 6vw;
@@ -735,7 +741,7 @@ textarea {
     font-weight: 400;
     line-height: 140%;
     z-index: 6;
-    margin-top: 30vw;
+    margin-top: 50vw;
     margin-left: 45vw;
   }
   .abtusdktp1 {
@@ -745,7 +751,7 @@ textarea {
     color: var(--text-all, #3d4867);
     font-family: Montserrat;
     font-size: 1vw;
-    margin-top: 35vw;
+    margin-top: 38vw;
     margin-left: 45vw;
     font-style: normal;
     font-weight: 400;
@@ -759,11 +765,10 @@ textarea {
     color: var(--text-all, #3d4867);
     font-family: Montserrat;
     font-size: 1vw;
-    margin-top: 40vw;
+    margin-top: 44vw;
     margin-left: 45vw;
     font-style: italic;
     font-weight: 700;
-    line-height: 140%; /* 28px */
     z-index: 6;
   }
   .abtusdktp3 {
@@ -775,18 +780,16 @@ textarea {
     line-height: 140%; /* 32.2px */
     position: absolute;
     z-index: 6;
-    margin-top: 46.4vw;
-    margin-left: 47vw;
+    margin-top: 55.4vw;
+    margin-left: 44vw;
   }
   .tickcircle1 {
     position: absolute;
     z-index: 6;
-    margin-top: 45.5vw;
-    margin-left: 44.5vw;
   }
   .alliconsdktp {
     position: absolute;
-    margin-top: 5vw;
+    margin-top: 10vw;
     width: 55vw;
     margin-left: 5vw;
     margin-right: 0;
@@ -806,11 +809,10 @@ textarea {
     justify-content: center;
     flex-shrink: 0;
     margin: 0;
+    margin-top: 7vw;
     margin-left: 0;
   }
   .mtndktp {
-    position: absolute;
-    bottom: -12vw;
     width: 100vw;
   }
   .orwrkdktp {
@@ -923,10 +925,7 @@ textarea {
     font-family: Montserrat;
     font-size: 14px;
     font-style: normal;
-    line-height: 180%; /* 19.6px */
-  }
-  footer list {
-    font-weight: 400;
+    line-height: 140%; /* 19.6px */
   }
   a {
     text-decoration: none;
