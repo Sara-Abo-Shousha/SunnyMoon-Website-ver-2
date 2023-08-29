@@ -232,12 +232,7 @@
             </div>
 
             <div class="col-12 text-center">
-              <button
-                type="submit"
-                value="SEND"
-                class="submit"
-                onclick="openPop()"
-              >
+              <button type="submit" class="submit" onclick="openPop()">
                 SEND
               </button>
             </div>
@@ -473,10 +468,11 @@
                 method="POST"
                 onSubmit="submit"
                 data-netlify="true"
+                date-netlify-honeypot="bot-field"
               >
                 <h4 class="ms-5 mb-4 hsend">DROP US A QUICK MESSAGE</h4>
                 <textarea
-                  name="messagedktp"
+                  name="message"
                   id=""
                   cols="30"
                   rows="50"
