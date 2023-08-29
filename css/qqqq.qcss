@@ -1,0 +1,327 @@
+@font-face {
+  font-family: "The Absolute";
+  src: url("./TheAbsolute.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Momcake";
+  src: url("./MomcakeThin-lgKVw.otf");
+  font-weight: Thin;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Momcake";
+  src: url("./MomcakeBold-9YXG2.otf");
+  font-weight: Bold;
+  font-style: normal;
+}
+section {
+  min-height: 90vh;
+  margin: 0;
+  padding: 0;
+}
+
+#whoweare {
+  position: relative;
+  z-index: 1;
+}
+
+#ourwork {
+  min-height: 60vh;
+  margin: 0;
+  padding: 0;
+}
+
+#intro,
+#whoweare {
+  padding: 0;
+  margin: 0;
+  background-color: #00D8DB;
+}
+
+#feedback {
+  background-color: #30ADFF;
+}
+
+*, body, html {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 15vw;
+  margin: 20px;
+  margin-top: 0;
+}
+
+.btnn {
+  width: 50vw;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 3vw;
+  color: white;
+  border: 2px solid white;
+  border-radius: 2em;
+  height: 8vw;
+  float: right;
+  box-shadow: black;
+  background-color: #222c49;
+  box-shadow: 2px 5px 15px #575757;
+}
+
+.rswish {
+  width: 100%;
+  top: -10vw;
+  left: 0rem;
+  right: 0;
+}
+
+.owners {
+  padding-top: 30vw;
+  right: 0;
+  width: 80%;
+}
+
+.mtmb {
+  right: 0;
+  position: absolute;
+  width: 100%;
+  margin-top: 105vw;
+}
+
+.clmb {
+  right: 0;
+  position: absolute;
+  margin-top: 105vw;
+  width: 80%;
+}
+
+.intro {
+  color: #222C49;
+  font-family: The Absolute;
+  font-style: normal;
+  font-size: 12vw;
+  text-align: center;
+  margin: 0;
+  /* Required for text-overflow to do anything */
+}
+
+.subintro {
+  color: #222C49;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+}
+
+.whoweare {
+  color: white;
+  font-family: The Absolute;
+  font-size: 2.3em;
+  text-align: center;
+}
+
+.abtus {
+  color: #3D4867;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.mission {
+  color: var(--text-2, #222C49);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  /* 16.8px */
+}
+
+.tickcircle {
+  padding-top: 19px;
+  text-align: center;
+}
+
+.prd {
+  color: white;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: bold;
+  padding-top: 14px;
+}
+
+.lilmountains {
+  width: 100%;
+  padding: 0;
+  position: absolute;
+  z-index: 0;
+  right: 0;
+}
+
+.smallcloud {
+  position: absolute;
+  width: 50%;
+  padding: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.smallcloudleft {
+  position: absolute;
+  width: 30%;
+  padding: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#services {
+  background: #AC9FFF;
+}
+
+.services {
+  margin-top: 3rem;
+  color: var(--white-color, #FFF);
+  text-align: center;
+  font-family: The Absolute;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 108%;
+  /* 37.8px */
+}
+
+.cd {
+  padding-top: 7.2rem;
+  padding-left: 1.25rem;
+  color: var(--text-all, #3D4867);
+  font-family: Montserrat;
+  font-size: 0.7rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.allicons {
+  width: 80%;
+}
+
+.ourwork {
+  margin-top: 3rem;
+  color: #3D4867;
+  text-align: center;
+  font-family: The Absolute;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 108%;
+}
+
+.holder {
+  width: 257.113px;
+  height: 258px;
+  background-color: rgb(184, 83, 169);
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  color: var(--white-color, #FFF);
+  font-family: Montserrat;
+  font-size: 0.9rem;
+  font-style: normal;
+}
+
+.btn2 {
+  width: 18em;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 0.8em;
+  color: #3D4867;
+  border: 2px solid white;
+  border-radius: 2em;
+  height: 3.5em;
+  background-color: #0BFFD0;
+}
+
+.message {
+  color: var(--title-color, #F1F2F3);
+  font-family: Montserrat;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+}
+
+textarea {
+  width: 80%;
+  height: 10em;
+  padding: 10px 15px;
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+  background-color: #f8f8f8;
+  font-size: 1rem;
+  font-family: Montserrat;
+  color: #3D4867;
+  resize: none;
+  text-align: center;
+  align-self: center;
+}
+
+.submit {
+  width: 10em;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 1em;
+  border-color: transparent;
+  border-radius: 2em;
+  height: 3.5em;
+  background-color: #222c49;
+  box-shadow: 2px 5px 15px #575757;
+}
+
+.footer {
+  background-color: #222C49;
+  height: 8rem;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 90px;
+}
+
+.padding-0 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.crd {
+  color: var(--white-color, #FFF);
+  font-family: Montserrat;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 14px */
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  section {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  #whoweare {
+    position: relative;
+    z-index: 1;
+    min-height: 60vh;
+    overflow: hidden;
+  }
+}/*# sourceMappingURL=main.css.map */

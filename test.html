@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      .pop-up {
+        width: 400px;
+        position: absolute;
+        border-radius: 6px;
+        background: rgb(244, 244, 244);
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        color: #222c49;
+        visibility: hidden;
+        fon
+      }
+      .openPop1 {
+        visibility: visible;
+      }
+    </style>
+    <button type="submit" class="btn" onclick="openPop()">Click ME</button>
+    <div class="pop-up" id="pop-up">
+      <h2>Thank You!</h2>
+      <p>message sent, we will contact you soon!</p>
+      <button type="submit" onclick="closePop()">ok</button>
+    </div>
+  </body>
+  <script>
+    let popup = document.getElementById("pop-up");
+    function openPop() {
+      popup.classList.add("openPop1");
+    }
+  </script>
+</html>

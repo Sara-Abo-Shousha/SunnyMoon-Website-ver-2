@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="./libs/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css
+    "
+      rel="stylesheet"
+    />
+    <link href="./css/main.css" rel="stylesheet" />
+
+    <title>Sunnymoon</title>
+    <link rel="icon" type="image/x-icon" href="./imgs/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body>
+    <!--Mobile Ver-->
+    <div class="mobilediv container-fluid scroller m-0 p-0">
+      <section id="intro" class="position-relative">
+        <div class="row mt-4">
+          <div class="col-6 mt-4 ps-4" style="z-index: 1">
+            <img src="./imgs/logo.svg" class="logo" />
+          </div>
+          <div class="col-6 mt-4" style="z-index: 1">
+            <button
+              type="button"
+              onclick="window.location.href=' https://calendly.com/sunnymoonproject '"
+              class="p-0 mt-2 float-end btnn align-self-end"
+            >
+              Book A Meeting
+            </button>
+          </div>
+        </div>
+        <img
+          src="./imgs/Rectangle.svg"
+          alt=""
+          class="rswish position-absolute m-0 p-0"
+        />
+
+        <p class="intro mt-5">
+          A kaleidoscope <br />
+          of visual delight <br /><span
+            ><p class="subintro">Find Out More</p> </span
+          ><br />
+        </p>
+        <img src="/imgs/owners.png" alt="" class="owners" />
+        <img src="/imgs/CLOUDS.svg" alt="" class="mtmb" />
+      </section>
+      <section id="whoweare">
+        <div class="row">
+          <div class="col-12">
+            <p class="whoweare">What's <br />Sunnymoon Project</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p class="abtus">
+              We are a
+              <span style="font-weight: bold">virtual creative art studio</span>
+              <br />
+              specializing in creating art assets for mobile<br />
+              gaming and animation, as well as character<br />
+              design, visual development and branding.
+            </p>
+          </div>
+          <div class="row ms-1">
+            <div class="col-12">
+              <p class="mission">
+                “ Whether you're a game developer in <br />
+                need of stunning art assets, or a brand <br />
+                seeking visuals that truly stand out from <br />
+                the rest, Sunnymoon Project is here to <br />
+                bring your creative vision to life. ”
+              </p>
+            </div>
+          </div>
+          <div class="row ms-1">
+            <div class="col-12 text-center">
+              <img src="./imgs/tickcircle.svg" class="tickcircle" />
+              <p class="prd">Proudly a women-owned business</p>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <img src="./imgs/lilclouds.svg" alt="" class="smallcloud" />
+          </div>
+        </div>
+      </section>
+
+      <section id="services">
+        <div class="row mb-3">
+          <p class="services">Our Celestial Services</p>
+        </div>
+        <div class="row">
+          <div class="col-1 ms-3 text-center">
+            <img
+              src="./imgs/leftsparkle.svg"
+              style="margin-top: 6rem"
+              class="ls"
+            />
+          </div>
+          <div class="col-9 p-0 m-0 text-center">
+            <img src="./imgs/allicons.svg" class="allicons" alt="" />
+          </div>
+          <div class="col-1 me-3 p-0 text-center">
+            <img
+              src="./imgs/rightsparkle.svg"
+              style="margin-top: 6rem"
+              class="rs"
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <img src="./imgs/mountainsprpl.svg" alt="" />
+        </div>
+      </section>
+      <section id="ourwork">
+        <div class="row mb-3 text-center">
+          <p class="ourwork">Our Work Samples</p>
+        </div>
+        <div class="row mb-5">
+          <div class="col-12 position-relative">
+            <div class="swiper-container">
+              <div class="swiper-wrapper" id="photoWrapper">
+                <!-- Photos will be added here dynamically -->
+              </div>
+
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="feedback" class="position-relative">
+        <div class="bg" id="bg1">
+          <div class="pop-up2" id="popup1">
+            <a href="#" class="close1" onclick="closePop()"></a>
+            <h1 class="mt-4">Thank You!</h1>
+            <p class="mb-4">message sent, we will contact you soon!</p>
+          </div>
+        </div>
+        <div class="row">
+          <p class="services">Our Clients feeback</p>
+        </div>
+        <div class="row text-center mt-1">
+          <div class="col-12">
+            <img src="./imgs/3stars.svg" alt="" class="w-25 text-center" />
+          </div>
+        </div>
+        <div class="ps-2">
+          <img src="./imgs/qoute.svg" width="12%" alt="" />
+        </div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <p>
+                I was impressed by Sunnymoon <br />Project's illustrations. The
+                use of <br />vibrant colors and attention to detail <br />
+                made their work stand out, and <br />incorporation of
+                storytelling added a <br />
+                lot to what we were aiming for our <br />
+                website.
+              </p>
+            </div>
+
+            <div class="swiper-slide">
+              <p>
+                Sunnymoon Project are great with <br />
+                time management and client <br />
+                communication. They did a good job <br />at efficiently
+                delivering our projects <br />
+                within the agreed timelines, <br />
+                never compromising on <br />the quality of their work.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div style="overflow: hidden">
+          <img
+            src="./imgs/qoute1.svg"
+            alt=""
+            style="position: absolute; right: 1em"
+            width="12%"
+          />
+        </div>
+        <div class="row mt-1">
+          <div class="col-12 text-center mt-5">
+            <button
+              type="button"
+              class="btn2"
+              onclick="window.location.href=' https://calendly.com/sunnymoonproject '"
+            >
+              Book A Meeting
+            </button>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <form action="">
+            <p class="message">
+              <label for="message">DROP US A QUICK MESSAGE</label>
+            </p>
+            <div class="col-12 text-center">
+              <textarea id="message name"></textarea>
+            </div>
+
+            <div class="col-12 text-center">
+              <input
+                type="submit"
+                value="SEND"
+                class="submit"
+                onclick="openPop()"
+              />
+            </div>
+          </form>
+          <div class="row mt-5 footer pt-3 ps-4">
+            <div
+              class="col-6 align-bottom"
+              style="margin-left: 26vw; bottom: 6vw"
+            >
+              <a
+                href="https://www.instagram.com/sunnymoon.project/"
+                target="_blank"
+              >
+                <img
+                  src="./imgs/ri_instagram-line.svg"
+                  class="col-2"
+                  alt=""
+                  style="width: 7vw; margin-right: 5vw"
+              /></a>
+              <a
+                href="https://www.behance.net/sunnymoonproject"
+                target="_blank"
+              >
+                <img
+                  src="./imgs/Layer_1.svg"
+                  class="col-2"
+                  style="margin-right: 5vw"
+                  alt=""
+              /></a>
+              <a
+                href="https://www.linkedin.com/company/sunnymoon-project/"
+                target="_blank"
+              >
+                <img
+                  src="./imgs/LINKEDIN.svg"
+                  class="col-2"
+                  alt=""
+                  style="width: 4.5vw; margin-right: 5vw"
+              /></a>
+              <a href="mailto: info.sunnymoonproject@gmail.com" target="_blank">
+                <img
+                  src="./imgs/EMAIL.svg"
+                  class="col-2"
+                  style="
+                    width: 5.5vw;
+                    margin-right: 5vw;
+                    position: relative;
+                    top: 0.7vw;
+                  "
+                  alt=""
+              /></a>
+            </div>
+            <div class="row crd m-0 p-0">
+              <div class="col text-center">
+                <p>Sunnymoon Project. All rights reserved</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!--DESKTOP VERSION-->
+    <div class="desktop container-fluid m-0 p-0">
+      <!-- example 6 - center on mobile -->
+
+      <section id="dsktpintro">
+        <div class="row position-relative m-0 p-0" style="z-index: 3">
+          <div class="w-auto m-5 d-inline-flex align-items-center">
+            <img src="./imgs/logo.svg" alt="" class="logodktp ms-5 mt-1" />
+            <div class="right d-inline-flex p-5 align-items-center m-5">
+              <a href=""> <h2 style="height: fit-t-content">Main</h2></a>
+              <a href="#whowearedktp">
+                <h2 style="height: fit-t-content">Services</h2></a
+              >
+              <a href="#ourworkdktp">
+                <h2 style="height: fit-t-content">Our Work</h2></a
+              >
+              <a href="#feedbakdktp">
+                <h2 style="height: fit-t-content">Contact Us</h2></a
+              >
+              <button
+                class="btndktp"
+                onclick="window.location.href=' https://calendly.com/sunnymoonproject '"
+              >
+                Book A Meeting
+              </button>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p class="introdktp" style="z-index: 3">
+            A kaleidoscope <br />
+            of visual delight
+          </p>
+          <p
+            class="position-absolute whowearedktp text-center"
+            id="abtus
+          "
+          >
+            What is <br />
+            SunnyMoon Project?
+          </p>
+          <p class="position-absolute abtusdktp">
+            We are a
+            <span style="font-weight: 700">virtual creative art studio</span>
+            specializing in creating art assets for mobile <br />gaming and
+            animation, as well as character designs and visual development and
+            <br />overall branding.
+          </p>
+          <p class="position-absolute abtusdktp1">
+            Our talented team of artists and designers have meticulous attention
+            to detail and a <br />deep understanding of the power of visuals. We
+            also believe in building strong<br />
+            partnerships with our clients to ensure their vision is fully
+            realized.
+          </p>
+          <p class="position-absolute abtusdktp2">
+            <span></span> “ Whether you're a game developer in need of stunning
+            art assets, or a brand <br />
+            seeking visuals that truly stand out from the rest, Sunnymoon
+            Project is here to <br />bring your creative vision to life. ”
+          </p>
+          <img src="./imgs/tickcircle.svg" class="tickcircle1" alt="" />
+          <p class="abtusdktp3">PROUDLY A WOMEN-OWNED BUINESS</p>
+          <img src="./imgs/desktopcloudsintro.svg" alt="" class="dktpclouds" />
+        </div>
+
+        <img src="./imgs/desktopwishes.svg" alt="" class="dktp" />
+        <img
+          src="./imgs/dktpownerspng.png"
+          alt=""
+          class="position-absolute dktpowners"
+        />
+      </section>
+      <section id="whowearedktp">
+        <div class="row">
+          <div class="col-8">
+            <img
+              src="./imgs/services content.svg"
+              alt=""
+              class="alliconsdktp"
+            />
+          </div>
+          <div class="col">
+            <p class="ourservicesdktp">
+              Our rad <br />
+              celestial services
+            </p>
+          </div>
+        </div>
+        <img src="./imgs/mountainsdktp.svg" class="mtndktp" alt="" />
+      </section>
+      <section id="ourworkdktp">
+        <div class="row rowfit text-center mt-5">
+          <p class="col orwrkdktp">Our work Samples</p>
+        </div>
+        <div class="row">
+          <p class="col ourinsta">
+            Few of our work samples through our instagram
+          </p>
+        </div>
+        <div class="row position-relative">
+          <div class="swiper-container1">
+            <div class="swiper-wrapper" id="photoWrapper1"></div>
+
+            <div class="swiper-button-prev swiper-button-black"></div>
+            <div class="swiper-button-next swiper-button-black"></div>
+          </div>
+        </div>
+      </section>
+      <section id="feedbakdktp" class="position-relative">
+        <div class="bg" id="bg">
+          <div class="pop-up" id="popup">
+            <a href="#" class="close" onclick="closePop()"></a>
+            <h1 class="mt-4">Thank You!</h1>
+            <p class="mb-4">message sent, we will contact you soon!</p>
+          </div>
+        </div>
+        <div class="">
+          <p class="fdbkdktp mt-5">OUR CLIENTS’ FEEDBACK</p>
+          <img src="./imgs/3stars.svg" class="thrstrsdktp mb-5" />
+          <!---->
+          <div class="row fdbkdktprow">
+            <img
+              src="./imgs/qoute.svg"
+              alt=""
+              class="position-absolute"
+              style="width: 5vw; top: 12vw"
+            />
+            <p class="col-3 p-0 fdbkdktp1">
+              I was impressed by Sunnymoon <br />Project's illustrations. The
+              use<br />
+              of vibrant colors and attention to detail<br />
+              made their work stand out, and<br />
+              incorporation of storytelling added a<br />
+              lot to what we were aiming for our <br />website.
+            </p>
+            <div class="p-0 m-0" style="width: 2vw; padding-right: 10vw">
+              <img
+                class="line col-1 position-relative"
+                src="./imgs/line.svg"
+                style="height: 12vw; right: 2vw"
+              />
+            </div>
+
+            <p class="col-3 m-0 p-0 fdbkdktp1">
+              Sunnymoon Project are great with <br />
+              time management and client <br />
+              communication. They did a good job <br />
+              at efficiently delivering our projects <br />within the agreed
+              timelines, never <br />
+              compromising on the quality of their <br />work.
+            </p>
+            <img
+              src="./imgs/qoute1.svg"
+              alt=""
+              class="position-absolute"
+              style="width: 5vw; top: 25vw; left: 58vw"
+            />
+            <div
+              class="col-3 position-relative text-center pe-0"
+              style="margin-top: -8vw; margin-left: 5vw"
+            >
+              <h4 class="ms-5 mb-4 hsend">DROP US A QUICK MESSAGE</h4>
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="50"
+                style="width: 28vw; height: 13vw"
+              ></textarea>
+              <button class="btndktp1 ms-5" onclick="openPop()">SEND</button>
+            </div>
+          </div>
+
+          <div class="row blurow align-items-end">
+            <div class="position-absolute">
+              <p class="finsus col-4">Find Our Socials</p>
+            </div>
+
+            <div
+              class="col-6 position-absolute align-bottom"
+              style="left: 30vw; bottom: 2vw"
+            >
+              <a
+                href="https://www.instagram.com/sunnymoon.project/"
+                target="_blank"
+              >
+                <img
+                  src="./imgs/ri_instagram-line.svg"
+                  class="col-2 socials1"
+                  alt=""
+              /></a>
+              <a
+                href="https://www.behance.net/sunnymoonproject"
+                target="_blank"
+              >
+                <img
+                  src="./imgs/Layer_1.svg"
+                  class="col-2 position-relative socials1"
+                  alt=""
+                  style="top: 0.5vw"
+              /></a>
+              <a
+                href="https://www.linkedin.com/company/sunnymoon-project/"
+                target="_blank"
+              >
+                <img
+                  src="./imgs/LINKEDIN.svg"
+                  class="col-2 position-relative"
+                  alt=""
+                  style="width: 2.2vw; margin: 1vw; top: 0.4vw"
+              /></a>
+              <a href="mailto: info.sunnymoonproject@gmail.com" target="_blank">
+                <img
+                  src="./imgs/EMAIL.svg"
+                  class="col-2 position-relative"
+                  style="width: 2.5vw; top: 0.5vw; margin: 1vw"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOR DEMO PURPOSE -->
+
+      <!-- FOOTER -->
+      <footer class="w-100 py-4 flex-shrink-0">
+        <div>
+          <img
+            src="./imgs/cloud footer.svg"
+            alt=""
+            class="position-absolute"
+            style="right: -7vw; z-index: 3; top: -10vw; width: 50vw"
+          />
+        </div>
+        <div class="container m-0 ms-4 p-5">
+          <div class="row mt-5 ms-5 ms-md-2">
+            <div class="col-lg-3 col-md-4 p-0">
+              <img src="./imgs/logo.svg" alt="" style="width: 6vw" />
+              <p class="text-white mt-2">
+                A creative virtual studio that <br />
+                offers art assets and <br />
+                illustration for mobile games <br />
+                and animation based projects.
+              </p>
+            </div>
+            <div class="col-lg-2 col-md-6 mt-5 p-0">
+              <h5 class="text-white mb-3">Company</h5>
+              <ul class="list-unstyled list">
+                <li><a href="#abtus">About</a></li>
+                <li><a href="#ourworkdktp">Works</a></li>
+                <li><a href="#feedbakdktp">Feedback</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mt-5 p-0 list">
+              <h5 class="text-white mb-3">Information</h5>
+              <ul class="list-unstyled text-muted">
+                <li>
+                  <a href="mailto: info.sunnymoonproject@gmail.com">Email Us</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-5 align-bottom p-0">
+              <h5 class="text-white mb-3">Follow Us</h5>
+              <ul class="list-unstyled flex-row">
+                <a
+                  href="https://www.instagram.com/sunnymoon.project/"
+                  target="_blank"
+                >
+                  <img
+                    src="./imgs/ri_instagram-line.svg"
+                    alt=""
+                    style="margin-right: 1vw"
+                /></a>
+                <a
+                  href="https://www.behance.net/sunnymoonproject"
+                  target="_blank"
+                >
+                  <img
+                    src="./imgs/Layer_1.svg"
+                    alt=""
+                    style="margin-right: 1vw; width: 1.5vw"
+                /></a>
+                <a
+                  href="https://www.linkedin.com/company/sunnymoon-project/"
+                  target="_blank"
+                >
+                  <img
+                    src="./imgs/LINKEDIN.svg"
+                    alt=""
+                    style="margin-right: 1vw; width: 1vw"
+                /></a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./libs/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js
+    "></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // Add smooth scrolling to all links
+        $("a").on("click", function (event) {
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $("html, body").animate(
+              {
+                scrollTop: $(hash).offset().top,
+              },
+              800,
+              function () {
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              }
+            );
+          } // End if
+        });
+      });
+    </script>
+  </body>
+</html>
