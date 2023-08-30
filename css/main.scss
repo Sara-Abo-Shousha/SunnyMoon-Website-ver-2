@@ -366,6 +366,7 @@ textarea {
 }
 
 //ipads and Tablets in portraits mode
+/*
 @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
   //ipad
   .desktop {
@@ -429,7 +430,7 @@ textarea {
   #ourwork {
     background-color: white;
   }
-}
+}*/
 .pop-up2 {
   // display: grid;
   place-items: center;
@@ -573,7 +574,7 @@ textarea {
   visibility: visible;
 }
 // meduim laptops
-@media screen and (min-width: 1024px) and (orientation: landscape) {
+@media screen and (min-width: 768px) {
   * {
     margin: 0;
     padding: 0;
@@ -684,7 +685,7 @@ textarea {
     font-family: Montserrat;
     font-weight: 500;
     font-size: 1vw;
-    color: #222c49;
+    color: #ffffff;
     border: 1px solid white;
     border-radius: 2em;
     height: 2.2vw;

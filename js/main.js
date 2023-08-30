@@ -1,5 +1,5 @@
 // Fetch the JSON data
-fetch("https://feeds.behold.so/n7jrRUXWU8AecDQSvV77")
+/*fetch("https://feeds.behold.so/n7jrRUXWU8AecDQSvV77")
   .then((response) => response.json())
   .then((data) => {
     const photoWrapper = document.getElementById("photoWrapper");
@@ -96,7 +96,7 @@ const swiper = new Swiper(".mySwiper", {
   autoplay: {
     delay: 5500,
   },
-});
+});*/
 let popup = document.getElementById("popup");
 let bg = document.getElementById("bg");
 let popup1 = document.getElementById("popup1");

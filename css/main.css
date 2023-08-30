@@ -360,7 +360,9 @@ textarea {
   display: none;
 }
 
+/*
 @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  //ipad
   .desktop {
     display: none;
   }
@@ -369,9 +371,11 @@ textarea {
     margin: 0;
     padding: 0;
   }
+
   .rswish {
     right: 0;
   }
+
   .logo {
     width: 12vw;
   }
@@ -380,26 +384,33 @@ textarea {
     top: 70vw;
     left: 30vw;
   }
+
   .whoweare {
     font-size: 9vw;
     padding: 0;
     margin: 5vw;
   }
+
   .btnn {
     width: 30vw;
+
     font-size: 2vw;
+
     height: 7vw;
     margin-right: 4vw;
   }
+
   .abtus {
     font-size: 3vw;
   }
+
   .mission {
     font-size: 3vw;
   }
   .allicons {
     width: 70%;
   }
+
   .services {
     font-size: 10vw;
     margin-bottom: 9vw;
@@ -413,7 +424,7 @@ textarea {
   #ourwork {
     background-color: white;
   }
-}
+}*/
 .pop-up2 {
   place-items: center;
   width: -moz-fit-content;
@@ -563,7 +574,7 @@ textarea {
   visibility: visible;
 }
 
-@media screen and (min-width: 1024px) and (orientation: landscape) {
+@media screen and (min-width: 768px) {
   * {
     margin: 0;
     padding: 0;
@@ -667,7 +678,7 @@ textarea {
     font-family: Montserrat;
     font-weight: 500;
     font-size: 1vw;
-    color: #222c49;
+    color: #ffffff;
     border: 1px solid white;
     border-radius: 2em;
     height: 2.2vw;

@@ -466,9 +466,8 @@
               <form
                 name="contactdesktop"
                 method="POST"
-                onSubmit="submit"
                 data-netlify="true"
-                date-netlify-honeypot="bot-field"
+                data-netlify-honeypot="bot-field"
               >
                 <h4 class="ms-5 mb-4 hsend">DROP US A QUICK MESSAGE</h4>
                 <textarea
@@ -481,6 +480,9 @@
                 <button class="btndktp1 ms-5" onclick="openPop()" type="submit">
                   SEND
                 </button>
+                <div id="success-message" style="display: none">
+                  Thank you for your submission! We appreciate your feedback.
+                </div>
               </form>
             </div>
           </div>
@@ -641,6 +643,22 @@
               }
             );
           } // End if
+        });
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const form = document.querySelector('form[name="contactdesktop"]');
+        const successMessage = document.getElementById("success-message");
+
+        form.addEventListener("submit", function (event) {
+          event.preventDefault(); // Prevent the default form submission
+
+          // You can add your form submission logic here if needed
+
+          // Display the success message and hide the form
+          form.style.display = "none";
+          successMessage.style.display = "block";
         });
       });
     </script>
