@@ -459,6 +459,16 @@
               <h4 class="ms-5 mb-4 hsend" id="#sucesss">
                 Thank you! we will contact you soon!
               </h4>
+              <script>
+                // Add a script to scroll to the success section
+                if (window.location.hash === "#success-section") {
+                  const successSection =
+                    document.getElementById("success-section");
+                  if (successSection) {
+                    successSection.scrollIntoView({ behavior: "smooth" });
+                  }
+                }
+              </script>
             </div>
           </div>
 
