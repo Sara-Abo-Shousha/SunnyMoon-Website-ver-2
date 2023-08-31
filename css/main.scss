@@ -35,7 +35,15 @@ html {
   padding: 0;
 }
 //phoness
-
+.hsend {
+  color: var(--title-color, #f1f2f3);
+  font-family: Montserrat;
+  font-size: 5vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 33.6px */
+  margin-left: 1vw;
+}
 .desktop {
   display: none;
 }
