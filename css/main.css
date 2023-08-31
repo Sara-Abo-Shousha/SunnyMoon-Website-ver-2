@@ -287,12 +287,12 @@ html {
 }
 
 textarea {
-  width: 70%;
+  width: 68%;
   height: 30vw;
   padding: 10px 15px;
   border: 2px solid #ffffff;
   border-radius: 25px;
-  background-color: #f8f8f8;
+  background-color: #ffffff;
   font-size: 3vw;
   font-family: Montserrat;
   color: #3d4867;
@@ -301,9 +301,13 @@ textarea {
   align-self: center;
 }
 
+input {
+  font-family: Montserrat;
+}
+
 .submit {
   width: 27vw;
-  height: 3.5em;
+  height: 8vw;
   font-family: Montserrat;
   font-weight: 600;
   font-size: 3vw;
@@ -312,6 +316,11 @@ textarea {
   border: 2px solid white;
   border-radius: 2em;
   margin-top: 2vw;
+}
+
+input {
+  font-family: Montserrat;
+  font-size: 3vw;
 }
 
 .footer {
@@ -587,13 +596,14 @@ textarea {
     height: 10em;
     padding: 10px 15px;
     border: 2px solid #ffffff;
-    border-radius: 25px;
-    background-color: #f8f8f8;
+    border-radius: 9px;
+    background-color: #ffffff;
     font-size: 1rem;
     font-family: Montserrat;
     color: #3d4867;
     resize: none;
     outline: none;
+    margin-top: 1vw;
     align-self: center;
   }
   body {
@@ -802,7 +812,6 @@ textarea {
     position: absolute;
     margin-top: 10vw;
     width: 60vw;
-    margin-left: 5vw;
     margin-right: 0;
   }
   .ourservicesdktp {
@@ -843,7 +852,7 @@ textarea {
     color: #000;
     text-align: center;
     font-family: Montserrat;
-    font-size: 19px;
+    font-size: 1.1vw;
     font-style: normal;
     font-weight: 600;
     line-height: 140%; /* 26.6px */
@@ -887,12 +896,19 @@ textarea {
   .fdbkdktp1 {
     color: var(--white-color, #fff);
     font-family: Montserrat;
-    font-size: 1.2vw;
+    font-size: 1.1vw;
     font-style: normal;
     font-weight: 500;
     line-height: 140%; /* 26.6px */
     text-align: left;
     margin-left: 5vw;
+  }
+  .form-control {
+    font-size: 1vw;
+    outline: none;
+  }
+  .col-md-1 {
+    display: inline-block;
   }
   .line {
     width: 5vw;
@@ -919,7 +935,7 @@ textarea {
     font-weight: 500;
     line-height: 140%; /* 26.6px */
     text-align: left;
-    padding-left: 7vw;
+    padding-left: 5vw;
   }
   .socials1 {
     width: 3vw;
@@ -934,7 +950,7 @@ textarea {
     height: 60vh;
     color: var(--text-color, #babec4);
     font-family: Montserrat;
-    font-size: 14px;
+    font-size: 1vw;
     font-style: normal;
     line-height: 140%; /* 19.6px */
   }

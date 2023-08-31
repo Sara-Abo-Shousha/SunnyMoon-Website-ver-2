@@ -149,13 +149,6 @@
       </section>
 
       <section id="feedback" class="position-relative">
-        <div class="bg" id="bg1">
-          <div class="pop-up2" id="popup1">
-            <a href="#" class="close1" onclick="closePop()"></a>
-            <h1 class="mt-4">Thank You!</h1>
-            <p class="mb-4">message sent, we will contact you soon!</p>
-          </div>
-        </div>
         <div class="row">
           <p class="services">Our Clients feeback</p>
         </div>
@@ -223,7 +216,36 @@
             <p class="message">
               <label for="message">DROP US A QUICK MESSAGE</label>
             </p>
+
             <div class="col-12 text-center">
+              <input
+                type="text"
+                name="name"
+                placeholder="NAME"
+                style="
+                  outline: none;
+                  border: none;
+                  border-radius: 7px;
+                  width: 64vw;
+                  height: 8vw;
+                  padding-left: 1vw;
+                  margin-bottom: 4vw;
+                "
+              />
+              <input
+                type="text"
+                name="email"
+                placeholder="EMAIL"
+                style="
+                  outline: none;
+                  border: none;
+                  border-radius: 7px;
+                  width: 64vw;
+                  height: 8vw;
+                  padding-left: 1vw;
+                  margin-bottom: 4vw;
+                "
+              />
               <textarea
                 id="message name "
                 name="message"
@@ -232,35 +254,33 @@
             </div>
 
             <div class="col-12 text-center">
-              <button type="submit" class="submit" onclick="openPop()">
-                SEND
-              </button>
+              <button type="submit" class="submit">SEND</button>
             </div>
           </form>
-          <div class="row mt-5 footer pt-3 ps-4">
+          <div class="row mt-5 footer pt-3 ps-4 align-items-end">
             <div
-              class="col-6 align-bottom"
-              style="margin-left: 26vw; bottom: 6vw"
+              class="col-12 align-bottom me-5"
+              style="margin-left: 15vw; bottom: 6vw"
             >
               <a
                 href="https://www.instagram.com/sunnymoon.project/"
                 target="_blank"
               >
                 <img
-                  src="./imgs/ri_instagram-line.svg"
-                  class="col-2"
+                  src="./imgs/Instagram .svg"
+                  class="col-2 me-4"
                   alt=""
-                  style="width: 7vw; margin-right: 5vw"
+                  style="width: 8vw"
               /></a>
               <a
                 href="https://www.behance.net/sunnymoonproject"
                 target="_blank"
               >
                 <img
-                  src="./imgs/Layer_1.svg"
-                  class="col-2"
-                  style="margin-right: 5vw"
+                  src="./imgs/Behance.svg"
+                  class="col-2 me-4"
                   alt=""
+                  style="width: 10.5vw; position: relative; top: -0.4vw"
               /></a>
               <a
                 href="https://www.linkedin.com/company/sunnymoon-project/"
@@ -268,21 +288,16 @@
               >
                 <img
                   src="./imgs/LINKEDIN.svg"
-                  class="col-2"
+                  class="me-4"
                   alt=""
-                  style="width: 4.5vw; margin-right: 5vw"
+                  style="width: 8vw"
               /></a>
               <a href="mailto: info.sunnymoonproject@gmail.com" target="_blank">
                 <img
                   src="./imgs/EMAIL.svg"
                   class="col-2"
-                  style="
-                    width: 5.5vw;
-                    margin-right: 5vw;
-                    position: relative;
-                    top: 0.7vw;
-                  "
                   alt=""
+                  style="position: relative; top: 0.5vw; width: 10vw"
               /></a>
             </div>
             <div class="row crd m-0 p-0">
@@ -367,7 +382,7 @@
           <img src="./imgs/desktopcloudsintro.svg" alt="" class="dktpclouds" />
         </div>
 
-        <img src="./imgs/desktopwishes.svg" alt="" class="dktp" />
+        <img src="./imgs/desktopwishes.png" alt="" class="dktp" />
         <img
           src="./imgs/dktpownerspng.png"
           alt=""
@@ -424,17 +439,17 @@
             />
             <p class="col-3 p-0 fdbkdktp1">
               I was impressed by Sunnymoon <br />Project's illustrations. The
-              use<br />
-              of vibrant colors and attention to detail<br />
+              use of<br />
+              vibrant colors and attention to detail<br />
               made their work stand out, and<br />
               incorporation of storytelling added a<br />
               lot to what we were aiming for our <br />website.
             </p>
-            <div class="p-0 m-0" style="width: 2vw; padding-right: 10vw">
+            <div class="p-0 m-0" style="width: 2vw; padding-right: 11vw">
               <img
                 class="line col-1 position-relative"
                 src="./imgs/line.svg"
-                style="height: 12vw; right: 2vw"
+                style="height: 12vw; right: 3vw"
               />
             </div>
 
@@ -450,7 +465,7 @@
               src="./imgs/qoute1.svg"
               alt=""
               class="position-absolute"
-              style="width: 5vw; top: 25vw; left: 58vw"
+              style="width: 5vw; top: 25vw; left: 56vw"
             />
             <div
               class="col-3 position-relative text-center pe-0"
@@ -464,6 +479,25 @@
                 action="Success.html#feedbakdktp"
               >
                 <h4 class="ms-5 mb-4 hsend">DROP US A QUICK MESSAGE</h4>
+                <div class="d-inline-flex">
+                  <input
+                    name="name"
+                    type="text"
+                    class="form-control me-4"
+                    required
+                    placeholder="NAME"
+                    style="border-radius: 9px; outline: none; width: 13vw"
+                  />
+
+                  <input
+                    name="email"
+                    type="text"
+                    class="form-control"
+                    placeholder="EMAIL"
+                    required
+                    style="border-radius: 9px; outline: none; width: 14vw"
+                  />
+                </div>
                 <textarea
                   name="message"
                   id=""
@@ -471,12 +505,7 @@
                   rows="50"
                   style="width: 28vw; height: 13vw"
                 ></textarea>
-                <button class="btndktp1 ms-5" onclick="openPop()" type="submit">
-                  SEND
-                </button>
-                <div id="success-message" style="display: none">
-                  Thank you for your submission! We appreciate your feedback.
-                </div>
+                <button class="btndktp1 ms-5" type="submit">SEND</button>
               </form>
             </div>
           </div>
@@ -540,54 +569,58 @@
             src="./imgs/cloud footer.svg"
             alt=""
             class="position-absolute"
-            style="right: -7vw; z-index: 3; top: -10vw; width: 50vw"
+            style="right: -6vw; z-index: 3; top: -10vw; width: 46vw"
           />
         </div>
-        <div class="container m-0 ms-4 p-5">
-          <div class="row mt-5 ms-5 ms-md-2">
-            <div class="col-lg-3 col-md-4 p-0">
-              <img src="./imgs/logo.svg" alt="" style="width: 6vw" />
-              <p class="text-white mt-2">
-                A creative virtual studio that <br />
-                offers art assets and <br />
+        <div class="container m-0 ms-4 p-5 ms-sm-1 p-sm-2 ms-lg-5">
+          <div class="row ms-5 ms-md-2 gx-5">
+            <div class="col-lg-3 col-md-3 col-sm-2 p-0 me-xl-5 mt-md-3">
+              <img
+                src="./imgs/logo.svg"
+                alt=""
+                style="width: 6vw"
+                class="ms-4"
+              />
+              <p class="text-white mt-2 ms-4">
+                A creative virtual studio that <br />offers art assets and<br />
                 illustration for mobile games <br />
                 and animation based projects.
               </p>
             </div>
-            <div class="col-lg-2 col-md-6 mt-5 p-0">
-              <h5 class="text-white mb-3">Company</h5>
+            <div class="col-lg-2 col-md-3 mt-5 ms-5">
+              <p class="text-white mb-3 fw-bold">Company</p>
               <ul class="list-unstyled text-muted">
-                <li><a href="#whoweare2">About</a></li>
-                <li><a href="#ourworkdktp">Works</a></li>
-                <li><a href="#feedbakdktp">Feedback</a></li>
+                <li class="mt-2"><a href="#whoweare2">About</a></li>
+                <li class="mt-2"><a href="#ourworkdktp">Works</a></li>
+                <li class="mt-2"><a href="#feedbakdktp">Feedback</a></li>
               </ul>
             </div>
-            <div class="col-lg-2 col-md-6 mt-5 p-0">
-              <h5 class="text-white mb-3">Information</h5>
+            <div class="col-lg-2 col-md-2 mt-5 p-0">
+              <p class="text-white mb-3 fw-bold">Information</p>
               <ul class="list-unstyled text-muted">
                 <li>
                   <a href="mailto: info.sunnymoonproject@gmail.com">Email Us</a>
                 </li>
               </ul>
             </div>
-            <div class="col-lg-4 col-md-6 mt-5 align-bottom p-0">
-              <h5 class="text-white mb-3">Follow Us</h5>
-              <ul class="list-unstyled flex-row">
+            <div class="col-lg-4 col-md-2 mt-5 align-bottom p-0">
+              <p class="text-white mb-3 fw-bold">Follow Us</p>
+              <ul class="list-unstyled flex-row align-items-end">
                 <a
                   href="https://www.instagram.com/sunnymoon.project/"
                   target="_blank"
                 >
                   <img
-                    src="./imgs/ri_instagram-line.svg"
+                    src="./imgs/Instagram .svg"
                     alt=""
-                    style="margin-right: 1vw"
+                    style="margin-right: 1vw; width: 1.2vw"
                 /></a>
                 <a
                   href="https://www.behance.net/sunnymoonproject"
                   target="_blank"
                 >
                   <img
-                    src="./imgs/Layer_1.svg"
+                    src="./imgs/Behance.svg"
                     alt=""
                     style="margin-right: 1vw; width: 1.5vw"
                 /></a>
@@ -598,7 +631,7 @@
                   <img
                     src="./imgs/LINKEDIN.svg"
                     alt=""
-                    style="margin-right: 1vw; width: 1.3vw"
+                    style="margin-right: 1vw; width: 1.1vw"
                 /></a>
               </ul>
             </div>
