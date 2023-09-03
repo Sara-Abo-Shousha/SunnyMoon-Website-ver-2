@@ -1,5 +1,5 @@
 // Fetch the JSON data
-fetch("https://feeds.behold.so/n7jrRUXWU8AecDQSvV77")
+fetch("https://feeds.behold.so/hnaWt62QKKXKutFCQUjJ")
   .then((response) => response.json())
   .then((data) => {
     const photoWrapper = document.getElementById("photoWrapper");
@@ -41,7 +41,7 @@ fetch("https://feeds.behold.so/n7jrRUXWU8AecDQSvV77")
   });
 
 // Fetch the JSON data
-fetch("https://feeds.behold.so/n7jrRUXWU8AecDQSvV77")
+fetch("https://feeds.behold.so/hnaWt62QKKXKutFCQUjJ")
   .then((response) => response.json())
   .then((data) => {
     const photoWrapper = document.getElementById("photoWrapper1");

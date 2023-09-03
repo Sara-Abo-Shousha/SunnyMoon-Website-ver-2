@@ -89,7 +89,7 @@ html {
 }
 
 .btnn {
-  width: 50vw;
+  width: 40vw;
   font-family: Montserrat;
   font-weight: 500;
   font-size: 3vw;
@@ -128,9 +128,9 @@ html {
 }
 .swiper-button-prev,
 .swiper-button-next {
-  margin: 5vw;
+  margin: 1vw;
   margin-top: 2vw;
-  scale: 0.5;
+  scale: 0.4;
 }
 .intro {
   font-family: The-Absolute;
@@ -139,7 +139,7 @@ html {
   z-index: 2;
   text-align: center;
   margin: 0;
-  padding-top: 5vw;
+  padding-top: 15vw;
   //padding: 0;
 }
 
@@ -150,6 +150,8 @@ html {
   font-size: 3vw;
   font-style: normal;
   font-weight: 700;
+  position: relative;
+  z-index: 2;
   letter-spacing: -0.4px;
 }
 
@@ -282,11 +284,11 @@ html {
   font-family: Montserrat;
   font-weight: 600;
   font-size: 0.8em;
-  color: #3d4867;
+  color: #ffffff;
   border: 1px solid white;
   border-radius: 2em;
 
-  background-color: #0bffd0;
+  background-color: #222c49;
   //box-shadow: 2px 5px 15px 5px #292d4d
 }
 
@@ -324,9 +326,9 @@ input {
   font-family: Montserrat;
   font-weight: 600;
   font-size: 3vw;
-  color: #222c49;
-  background-color: #0bffd0;
-  border: 2px solid white;
+  color: #ffffff;
+  background-color: #222c49;
+  border: 1px solid white;
   border-radius: 2em;
 
   margin-top: 2vw;
@@ -638,6 +640,7 @@ input {
     background-color: #09ffff;
     height: fit-content;
   }
+  $bg: url("../imgs/3.Services.svg");
   #whowearedktp {
     // position: relative;
     position: relative;
@@ -645,7 +648,6 @@ input {
     background-color: #ac9fff;
     z-index: 5;
     // top: -22vw;
-    height: fit-content;
   }
   #ourworkdktp {
     //position: relative;
@@ -659,7 +661,7 @@ input {
     //top: -50vw;
     background-color: #30adff;
     width: 100vw;
-    height: fit-content;
+    min-height: fit-content;
   }
   .dktpclouds {
     width: 100%;
@@ -670,7 +672,7 @@ input {
   .dktpowners {
     z-index: 1;
     width: 44%;
-    top: 13vw;
+    top: 8vw;
     right: 6vw;
   }
   .logodktp {
@@ -678,20 +680,21 @@ input {
   }
   .right {
     position: absolute;
-    right: 2vw;
+    right: 1vw;
+    top: 2vw;
   }
-  h2 {
+  h3 {
     padding: 1vw;
     color: var(--text-all, #3d4867);
     font-family: Montserrat;
-    font-size: 1.2vw;
+    font-size: 1vw;
     font-style: normal;
     font-weight: 600;
     line-height: 100%; /* 17px */
     letter-spacing: -0.68px;
 
     &:hover {
-      text-decoration: underline;
+      color: white;
     }
   }
   .btndktp {
@@ -706,7 +709,7 @@ input {
     float: right;
     box-shadow: black;
     background-color: #222c49;
-    box-shadow: 2px 5px 15px #575757;
+    box-shadow: 2px 2px 15px #2d1e50;
     position: relative;
     bottom: 0.5vw;
 
@@ -720,25 +723,26 @@ input {
     font-family: Montserrat;
     font-weight: 500;
     font-size: 1vw;
-    color: #222c49;
-    background-color: #0bffd0;
+    background-color: #222c49;
+    color: #ffffff;
+
     border: 2px solid white;
     border-radius: 2em;
     height: 3vw;
     margin-top: 2vw;
 
     &:hover {
-      color: #0bffd0;
       transition: ease-in;
+      color: #222c49;
 
-      background-color: #222c49;
+      background-color: #0bffd0;
     }
   }
 
   .introdktp {
     color: var(--text-all, #3d4867);
     font-family: The-Absolute;
-    font-size: 5vw;
+    font-size: 4.5vw;
     font-style: normal;
     font-weight: 400;
     line-height: 118.5%;
@@ -762,7 +766,7 @@ input {
     display: flex;
     width: 30vw;
     height: 30vw;
-    margin-top: 40vw;
+    margin-top: 38vw;
     flex-shrink: 0;
     z-index: 6;
     margin-left: 6vw;
@@ -778,7 +782,7 @@ input {
     font-weight: 400;
     line-height: 140%;
     z-index: 6;
-    margin-top: 50vw;
+    margin-top: 36vw;
     margin-left: 45vw;
   }
   .abtusdktp1 {
@@ -788,7 +792,7 @@ input {
     color: var(--text-all, #3d4867);
     font-family: Montserrat;
     font-size: 1vw;
-    margin-top: 38vw;
+    margin-top: 41vw;
     margin-left: 45vw;
     font-style: normal;
     font-weight: 400;
@@ -796,13 +800,13 @@ input {
     z-index: 6;
   }
   .abtusdktp2 {
-    width: 863px;
-    height: 317.397px;
+    width: fit-content;
+    height: fit-content;
     flex-shrink: 0;
     color: var(--text-all, #3d4867);
     font-family: Montserrat;
     font-size: 1vw;
-    margin-top: 44vw;
+    margin-top: 46vw;
     margin-left: 45vw;
     font-style: italic;
     font-weight: 700;
@@ -818,7 +822,7 @@ input {
     line-height: 140%; /* 32.2px */
     position: absolute;
     z-index: 6;
-    margin-top: 55.4vw;
+    margin-top: 54.4vw;
     margin-left: 44vw;
   }
   .tickcircle1 {
@@ -827,7 +831,7 @@ input {
   }
   .alliconsdktp {
     position: absolute;
-    margin-top: 10vw;
+    margin-top: 4vw;
     width: 60vw;
     margin-left: 5vw;
     margin-right: 0;
@@ -835,7 +839,7 @@ input {
   .ourservicesdktp {
     color: var(--text-all, #ffffff);
     font-family: The-Absolute;
-    font-size: 6vw;
+    font-size: 4.5vw;
     font-style: normal;
     font-weight: 400;
     line-height: 118.5%;
@@ -847,16 +851,18 @@ input {
     justify-content: center;
     flex-shrink: 0;
     margin: 0;
-    margin-top: 7vw;
+    position: absolute;
+    margin-top: 3vw;
     margin-left: 0;
   }
   .mtndktp {
     width: 100vw;
+    z-index: 10;
   }
   .orwrkdktp {
     color: var(--text, #585858);
     font-family: The-Absolute;
-    font-size: 92px;
+    font-size: 4.5vw;
     font-style: normal;
     font-weight: 400;
     line-height: 140%; /* 128.8px */
@@ -892,12 +898,13 @@ input {
   .swiper-button-prev,
   .swiper-button-next {
     margin: 10vw;
+    scale: 0.8;
   }
 
   .fdbkdktp {
     color: var(--white-color, #fff);
     font-family: The-Absolute;
-    font-size: 5vw;
+    font-size: 4.5vw;
     font-style: normal;
     font-weight: 400;
     line-height: 140%; /* 98px */
@@ -943,7 +950,7 @@ input {
   .blurow {
     position: relative;
     width: 90vw;
-    height: 10vw;
+    height: 7.8vw;
     bottom: 0;
     margin-top: 3vw;
     background-color: #0096db;
@@ -953,25 +960,25 @@ input {
   .finsus {
     color: var(--white-color, #fff);
     font-family: The-Absolute;
-    font-size: 4vw;
+    font-size: 4.5vw;
     font-style: normal;
     font-weight: 500;
     line-height: 140%; /* 26.6px */
     text-align: left;
-    //padding-top: 3vw;
+
     padding-left: 5vw;
   }
   .socials1 {
-    width: 3vw;
-    margin: 1vw;
+    width: 3.3vw;
+    margin: 0.9vw;
     position: relative;
-    top: 0.4vw;
+    top: 1vw;
   }
   footer {
     position: relative;
     top: -0vw;
     background-color: #222c49;
-    height: 60vh;
+    height: fit-content;
     color: var(--text-color, #babec4);
     font-family: Montserrat;
     font-size: 1vw;
@@ -994,6 +1001,10 @@ input {
     font-weight: 700;
     line-height: 140%; /* 33.6px */
     margin-left: 1vw;
+  }
+  .socials2 {
+    width: 1.5vw;
+    margin-right: 0.5vw;
   }
 }
 //Desktop
